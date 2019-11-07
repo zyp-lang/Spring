@@ -1,9 +1,9 @@
 package com.zyp.entity;
 
 public class Order {
-    private  String  id;
-    private  String  name;
-    private  Double  price;
+    private String id;
+    private String name;
+    private Double price;
 
     public Order(String id, String name, Double price) {
         this.id = id;

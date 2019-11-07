@@ -2,7 +2,7 @@ package com.zyp.service;
 
 import com.zyp.dao.UserDAO;
 
-public class UserServiceImpl implements  UserService {
+public class UserServiceImpl implements UserService {
     private UserDAO userDAO;
 
     public UserDAO getUserDAO() {

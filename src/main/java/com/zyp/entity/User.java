@@ -7,10 +7,10 @@ public class User {
     private String username;
     private String password;
     private Integer age;
-    private String[]  names;
+    private String[] names;
     private List<String> list;
     private Set<String> set;
-    private Map<String,String> maps;
+    private Map<String, String> maps;
     private Properties properties;
 
     public User() {

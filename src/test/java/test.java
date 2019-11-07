@@ -11,27 +11,30 @@ public class test {
     
     
     //github提交
+    //本地提交
     @Test
-    public void test1(){
+    public void test1() {
         ClassPathXmlApplicationContext cs = new ClassPathXmlApplicationContext("applicationContext.xml");
-        User user=(User)cs.getBean("user");
+        User user = (User) cs.getBean("user");
         System.out.println(user);
     }
+
     @Test
-    public void test2(){
+    public void test2() {
         ClassPathXmlApplicationContext cs = new ClassPathXmlApplicationContext("applicationContext.xml");
-        UserDAO u=(UserDAO)cs.getBean("userDAO");
+        UserDAO u = (UserDAO) cs.getBean("userDAO");
         u.save();
     }
+
     @Test
-    public void test3(){
+    public void test3() {
         ClassPathXmlApplicationContext cs = new ClassPathXmlApplicationContext("applicationContext.xml");
         UserService userService = (UserService) cs.getBean("userService");
         userService.regist();
     }
 
     @Test
-    public void test4(){
+    public void test4() {
         ClassPathXmlApplicationContext cs = new ClassPathXmlApplicationContext("applicationContext.xml");
         Connection connection = (Connection) cs.getBean("connection");
         System.out.println(connection);
@@ -40,7 +43,7 @@ public class test {
     }
 
     @Test
-    public void test5(){
+    public void test5() {
         ClassPathXmlApplicationContext cs = new ClassPathXmlApplicationContext("applicationContext.xml");
         SqlSessionFactory sqlSessionFactory = (SqlSessionFactory) cs.getBean("sqlSessionFactory");
         System.out.println(sqlSessionFactory);

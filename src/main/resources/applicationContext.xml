@@ -43,16 +43,22 @@
                 <!-- 代表一个键值对 -->
                 <entry>
                     <!--键-->
-                    <key><value>1</value></key>
+                    <key>
+                        <value>1</value>
+                    </key>
                     <!--值-->
                     <value>小黑黑</value>
                 </entry>
                 <entry>
-                    <key><value>2</value></key>
+                    <key>
+                        <value>2</value>
+                    </key>
                     <value>小灰灰</value>
                 </entry>
                 <entry>
-                    <key><value>3</value></key>
+                    <key>
+                        <value>3</value>
+                    </key>
                     <value>小红红</value>
                 </entry>
             </map>
