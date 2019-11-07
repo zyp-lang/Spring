@@ -8,6 +8,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.sql.Connection;
 
 public class test {
+    
+    
+    //github提交
     @Test
     public void test1(){
         ClassPathXmlApplicationContext cs = new ClassPathXmlApplicationContext("applicationContext.xml");
