@@ -11,7 +11,7 @@ public class test {
     
     
     //github提交
-    //本地提交
+    //本地提交222
     @Test
     public void test1() {
         ClassPathXmlApplicationContext cs = new ClassPathXmlApplicationContext("applicationContext.xml");
